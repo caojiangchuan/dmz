@@ -1,0 +1,4 @@
+H5页面通过ThumbFront再去调网关地址。
+window.urlTest= '/ThumbFront/front/requestApi'//配置地址大拇指 不变
+封装方法method：接口名称 datajson：传参
+打包需要将vue.config.js中的改成baseUrl: './',开发改成baseUrl: 'h5/',
